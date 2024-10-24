@@ -9,9 +9,21 @@ public class Crossbow  implements PlayerStrategy{
         Hint: There are four methods that you need to implement from the PlayerStrategy class
 
      */
-
+    public void attackSmall(){
+        System.out.println("Crossbow - Small");
+    }
+    public void attackMedium(){
+        System.out.println("Crossbow - Medium");
+    }
+    public void attackLarge(){
+        System.out.println("Crossbow - Large");
+    }
+    public void announceStrategy(){
+        System.out.println("Crossbow");
+    }
     /*
-        TODO: Make a no-args constructor that will initialize this field to "Crossbow"
+        TODO: Make a no-args constructor that will initialize this field to "Sword"
      */
-
+    public Crossbow(){
+    }
 }

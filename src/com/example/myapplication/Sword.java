@@ -8,9 +8,21 @@ public class Sword implements PlayerStrategy{
             One additional method should announce just the name of the strategy
         Hint: There are four methods that you need to implement from the PlayerStrategy class
      */
-
+    public void attackSmall(){
+        System.out.println("Sword - Small");
+    }
+    public void attackMedium(){
+        System.out.println("Sword - Medium");
+    }
+    public void attackLarge(){
+        System.out.println("Sword - Large");
+    }
+    public void announceStrategy(){
+        System.out.println("Sword");
+    }
     /*
         TODO: Make a no-args constructor that will initialize this field to "Sword"
      */
-
+    public Sword(){
+    }
 }
